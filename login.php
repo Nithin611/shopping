@@ -25,7 +25,7 @@ if(isset($_POST['login']))
    $password=md5($_POST['password']);
    $data=array('email'=>$email,'password'=>$password);
    
-   $azfendpoint='https://authenticate44.azurewebsites.net/api/HttpTrigger1?code=Gi4dJV9ZTBStlZjmL9a8N6l1Nwbx9VfauNh-DabAlsPOAzFuJQp0pg==';
+   $azfendpoint='https://shopping61.azurewebsites.net/api/HttpTrigger1?code=FhSuk_R1xc_-Y_0jtLE1ACTfp4MOs6lZwwWxdA8da86HAzFuObutkQ==';
    $options = array(
         'http' => array(
             'method' => 'POST',
